@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: 陈国强
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Chen Guoqiang
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Guoqiang
+last_name: Chen
 
 # Status emoji
 status:
@@ -17,12 +17,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Director of Cloud Infrastructure
+role: Back-End Developer & Blockchain Developer
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: GenCoin
-    url: https://www.example.com/
+  - name: Tencent
+    url: https://www.tencent.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -130,12 +130,12 @@ skills:
         icon: camera
 
 languages:
-  - name: English
-    percent: 100
   - name: Chinese
-    percent: 75
+    percent: 100
+  - name: English
+    percent: 65
   - name: Portuguese
-    percent: 25
+    percent: 50
 
 # Awards.
 #   Add/remove as many awards below as you like.

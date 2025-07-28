@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: http://43.155.71.95/sitemap.xml
