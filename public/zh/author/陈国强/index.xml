@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>陈国强 | Résumé Hugo Theme</title>
+    <link>http://43.155.71.95/zh/author/%E9%99%88%E5%9B%BD%E5%BC%BA/</link>
+      <atom:link href="http://43.155.71.95/zh/author/%E9%99%88%E5%9B%BD%E5%BC%BA/index.xml" rel="self" type="application/rss+xml" />
+    <description>陈国强</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>zh</language>
+    <image>
+      <url>http://43.155.71.95/author/%E9%99%88%E5%9B%BD%E5%BC%BA/avatar_hu_30274f303a2fc4e.jpg</url>
+      <title>陈国强</title>
+      <link>http://43.155.71.95/zh/author/%E9%99%88%E5%9B%BD%E5%BC%BA/</link>
+    </image>
+    
+  </channel>
+</rss>
