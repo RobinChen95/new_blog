@@ -1,4 +1,4 @@
 #! /bin/bash
 cd /root/new_blog
-hugo --baseURL http://43.155.71.95/
+hugo --baseURL https://robinchen95.com/ --cleanDestinationDir
 sudo cp -r public/* /var/www/new_blog/
