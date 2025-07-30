@@ -17,13 +17,34 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Back-End & Blockchain Developer
+role: Back-End Developer & Blockchain Developer
+
+# Organizations/Affiliations to display in Biography blox
+organizations:
+  - name: Tencent
+    url: https://www.tencent.com/
+
+# Social network links
+# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
+
+# profiles:
+#   - icon: at-symbol
+#     url: 'mailto:your-email@example.com'
+#     label: E-mail Me
+#   - icon: brands/x
+#     url: https://twitter.com/GetResearchDev
+#   - icon: brands/github
+#     url: https://github.com/gcushen
+#   - icon: brands/linkedin
+#     url: https://www.linkedin.com/
+#   - icon: brands/instagram
+#     url: https://www.instagram.com/
 
 education:
   - area: MEng Software Engineering
     institution: Peking University
-    date_start: 2018-09-09
-    date_end: 2021-07-01
+    date_start: 2016-01-01
+    date_end: 2020-12-31
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
@@ -31,9 +52,11 @@ education:
       url: 'https://example.com'
   - area: BSc Software Engineering
     institution: Xi'an Jiaotong University
-    date_start: 2014-08-18
-    date_end: 2018-06-21
+    date_start: 2016-01-01
+    date_end: 2020-12-31
     summary: |
+      GPA: 3.8/4.0
+
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -43,8 +66,8 @@ work:
     company_name: Tencent
     company_url: 'https://www.tencent.com/'
     company_logo: 'https://img.88icon.com/upload/jpg/20210522/b5c10696121dd92e2dbd37dc99bb7f12_40835_800_286.jpg!bg'
-    date_start: 2021-08-03
-    date_end: 2024-08-30
+    date_start: 2021-01-01
+    date_end: ''
     summary: |
       Responsibilities include:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -92,7 +115,6 @@ languages:
     percent: 72
   - name: Japanese
     percent: 50
-  
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -126,6 +148,4 @@ awards:
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-My name is Chen Guoqiang (Robin Chen). I am a former Backend Software Engineer at [Tencent](https://tencent.com).
-I graduated from [Peking University](https://robinchen95.com/documents/master.jpeg) and [Xi’an Jiaotong University](https://robinchen95.com/documents/Bachelor.jpeg), both with majors in Software Engineering.
-I’m trilingual and can work in Mandarin Chinese (native), English ([IELTS-A 6.5](https://robinchen95.com/documents/ielts.jpeg)), and Japanese (JLPT N2).
+I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.

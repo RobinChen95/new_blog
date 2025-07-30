@@ -114,6 +114,9 @@
 
 # Experience widget
 
+- id: experience
+  translation: 実務経験
+
 - id: present
   translation: 現在
 

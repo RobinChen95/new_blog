@@ -19,29 +19,9 @@ superuser: true
 # Role/position/tagline
 role: Back-End Developer & Blockchain Developer
 
-# Organizations/Affiliations to display in Biography blox
-organizations:
-  - name: Tencent
-    url: https://www.tencent.com/
-
-# Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
-profiles:
-  - icon: at-symbol
-    url: 'mailto:your-email@example.com'
-    label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
-
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
+  - area: MEng Software Engineering
+    institution: Peking University
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
@@ -49,8 +29,8 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - area: BSc Software Engineering
+    institution: Xi'an Jiaotong University
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
@@ -60,38 +40,16 @@ education:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
+  - position: Back-End Software Engineer
+    company_name: Tencent
+    company_url: 'https://www.tencent.com/'
+    company_logo: 'https://img.88icon.com/upload/jpg/20210522/b5c10696121dd92e2dbd37dc99bb7f12_40835_800_286.jpg!bg'
     date_start: 2021-01-01
     date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
@@ -130,11 +88,11 @@ skills:
         icon: camera
 
 languages:
-  - name: Chinese
+  - name: 中文
     percent: 100
-  - name: English
+  - name: 英语
     percent: 72
-  - name: Japanese
+  - name: 日语
     percent: 50
 
 # Awards.
@@ -169,4 +127,3 @@ awards:
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.
