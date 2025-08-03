@@ -1,5 +1,5 @@
 ---
-title: 'Home'
+title: 'CV'
 date: 2023-10-24
 type: landing
 
@@ -16,7 +16,7 @@ sections:
       username: admin
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download Résumé
+        text: English Résumé
         url: uploads/resume.pdf
     design:
       banner:
@@ -30,19 +30,15 @@ sections:
       username: admin
     design:
       # Hugo date format
-      date_format: '2006-01-02'
+      date_format: 'Jan 2006'
       # Education or Experience section first?
       is_education_first: false
-  - block: languages
-    content:
-      title: Languages
-      username: admin
   - block: awards
     content:
-      title: Awards
+      title: Projects
       username: admin
-  - block: skills
+  - block: languages
     content:
-      title: Skills & Hobbies
+      title: Language Level
       username: admin
 ---

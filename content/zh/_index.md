@@ -1,5 +1,5 @@
 ---
-title: 'Home'
+title: 'CV'
 date: 2023-10-24
 type: landing
 
@@ -16,7 +16,7 @@ sections:
       username: admin
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download Résumé
+        text: 中文简历
         url: uploads/resume.pdf
     design:
       banner:
@@ -30,19 +30,15 @@ sections:
       username: admin
     design:
       # Hugo date format
-      date_format: 'January 2006'
+      date_format: '2006年1月'
       # Education or Experience section first?
       is_education_first: false
-  - block: skills
-    content:
-      title: Skills & Hobbies
-      username: admin
   - block: awards
     content:
-      title: Awards
+      title: 项目经验
       username: admin
   - block: languages
     content:
-      title: Languages
+      title: 语言等级
       username: admin
 ---
