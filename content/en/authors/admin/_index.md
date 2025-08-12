@@ -25,6 +25,7 @@ education:
     date_start: 2018-09-09
     date_end: 2021-07-01
     summary: |
+      - GPA: [3.25/4](https://robinchen95.com/documents/master_gpa.jpeg), [Top 20%](https://robinchen95.com/documents/master_gpa_explan.jpeg)
       - Conducted research on oracle mechanisms for the Peking University [Bdware Blockchain platform](https://gitee.com/bdware).
       - Developed and implemented smart contracts and decentralized applications on the platform.
     button:
@@ -86,7 +87,7 @@ awards:
     date: '2024-08-30'
     awarder: QQ Basic Infrastructure ∙ Golang
     summary: |
-      - Built and optimized a Golang-based backend for QQ’s facial recognition service, supporting user profile security and device login verification.
+      - Built and optimized Golang-based backend for QQ’s facial recognition service, supporting user profile security and device login verification.
       - Integrated deep learning model APIs and improved response latency by 40% through concurrent image preprocessing and caching.
       - Collaborated with QQ security team to detect and prevent face spoofing attacks, improving system resilience against black and grey market abuse.
 
@@ -99,7 +100,7 @@ awards:
       - Supported 78K peak QPS and 2.2B daily requests with high availability, implementing fine-grained caching and horizontally scalable architecture.
       - Optimized push notification service with dynamic throttling to reduce system load during peak hours.
 
-  - title: 'Oracle Mechanism for Bdware Blockchain platform'
+  - title: 'Oracle Mechanism for Bdware Blockchain Platform'
     certificate_url: https://gitee.com/bdware
     date: '2021-06-30'
     awarder: Peking University ∙ Java/Solidity
@@ -121,4 +122,5 @@ Hello there! I am Chen Guoqiang (Robin Chen) -- a former Backend Software Engine
 
 I recently completed my GAP year (Sep 2024 – Aug 2025), during which I travelled globally, improved language skills, and refocused career toward blockchain technology.
 
-I am trilingual and can work in Chinese (native), English ([IELTS-A 6.5](https://robinchen95.com/documents/ielts.jpeg)), and Japanese (JLPT N2).
+I am trilingual and can work in Chinese (native), English ([PKU Exemption Granted](https://robinchen95.com/documents/master_gpa.jpeg)、[IELTS-A 6.5](https://robinchen95.com/documents/ielts.jpeg)), and Japanese (JLPT N2). In addition, my academic background qualifies me for work in 🇬🇧 the [UK](https://www.gov.uk/high-potential-individual-visa), 🇯🇵 [Japan](https://www.moj.go.jp/isa/applications/status/designatedactivities51.html), and 🇭🇰 [Hong Kong](https://www.immd.gov.hk/eng/services/visas/TTPS.html) without visa sponsorship for at least two years.
+

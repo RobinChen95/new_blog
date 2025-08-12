@@ -25,8 +25,9 @@ education:
     date_start: 2018-09-09
     date_end: 2021-07-01
     summary: |
-      - 在北京大学[北大数瑞](https://gitee.com/bdware)平台进行区块链预言机机制相关研究。
-      - 开发并实现了该平台上的智能合约和去中心化应用。
+      - GPA: [3.25/4](https://robinchen95.com/documents/master_gpa.jpeg), [Top 20%](https://robinchen95.com/documents/master_gpa_explan.jpeg)
+      - 在北京大学[北大数瑞](https://gitee.com/bdware)平台进行区块链预言机机制相关研究与开发
+      - 在北大数瑞平台开发智能合约与去中心化应用
     button:
       text: '论文摘要(英文)'
       url: 'https://robinchen95.com/documents/master_thesis_en_abstruct.pdf'
@@ -40,31 +41,31 @@ education:
       - 计算机组织结构(91/100)
       - 数学建模(89/100)
 work:
-  - position: 个人成长与技术转型
+  - position: 个人与技术转型
     company_name: 'GAP Year'
     date_start: 2024-09-01
     date_end: 2025-08-30
     summary: |
-      1. 独立环球旅行（2024年9月 – 2025年2月）：
+      1. 环球考察（2024年9月 – 2025年1月）：
           - 🇬🇧 英国 & 🇮🇪 爱尔兰（9–10月）
           - 🇭🇰 香港 & 🇻🇳 越南（11月）
-          - 🇯🇵 日本（12–2月）
-      2. 区块链技术与语言学习（2025年3月 – 8月）：
-          - 区块链：重塑职业方向，聚焦区块链技术。
-          - 英语：雅思总分 6.5
-          - 日语：通过 JLPT N2（商务水平）
-  - position: 后端开发工程师
+          - 🇯🇵 日本（12–1月）
+      2. 区块链技术与语言学习（2025年2月 – 8月）：
+          - 区块链：重拾区块链技术、跟进前沿区块链进展
+          - 英语：通过 雅思考试（总分 6.5）
+          - 日语：通过 JLPT考试（N2 商务水平）
+  - position: 后台开发工程师
     company_name: 腾讯
     company_url: 'https://www.tencent.com/'
     company_logo: 'https://robinchen95.com/documents/tencent_logo.png'
     date_start: 2021-08-03
     date_end: 2024-08-30
     summary: |
-      工作职责:
-      - 负责 [QQ](https://www.tencent.net.cn/products/qq/) 的后端系统开发与维护
-      - 覆盖 35 亿+ QQ 账户的生命周期管理，包括注册、注销、回收及互联登录集成。
-      - 主导 QQ 核心遗留模块的重构，提升系统可靠性与可用性。
-  
+      工作职责: [QQ](https://www.tencent.net.cn/products/qq/) 后台系统的开发与维护
+      - 负责 QQ 账号系统
+      - 负责 QQ 手Q人脸识别后台
+      - 负责 QQ 频道用户资料系统
+      - 参与 QQ 核心模块的云原生重构
 
 # Awards.
 #   Add/remove as many awards below as you like.
@@ -73,39 +74,40 @@ work:
 awards:
   - title: QQ账号系统
     certificate_url: https://ssl.zc.qq.com/v3/index-en.html
-    date: ''
-    awarder: QQ 基础架构 ∙ Golang/C++
+    date: '2024-08-30'
+    awarder: 腾讯 ∙ QQ 基础架构 ∙ Golang/C++
     summary: |
-      - Developed and maintained core account services for 3.5B+ QQ users, including registration, revocation, and recycling.
-      - Refactored legacy C++ modules (20+ years old) to adapt cloud based services.
-      - Redesigned legacy modules to improve reliability and maintainability, which is still running today. 
+      - QQ基础后台是全球使用超过20年的软件系统中，用户数量最多的业务系统，同时具有海量历史代码与超高用户访问量两大特性，而 QQ 账号系统是其中最为核心的模块之一，公司创始人马化腾(Pony Ma)也曾为此模块贡献代码。
+      - 负责超过30亿 QQ 账号的核心链路，包括注册、注销、回收与互联登录机制
+      - 推动 QQ 账号42亿改造，精简老旧链路、重新与上下游制定可扩展的新协议
+      - 以云原生的方式重构QQ账号回收系统、登录提醒等模块，相关服务至今仍在稳定运行
 
   - title: 手Q人脸识别
     certificate_url: https://jiazhang.qq.com/healthy/dist/faceRecognition/guide_pc.html
     date: '2024-08-30'
-    awarder: QQ 基础架构 ∙ Golang
+    awarder: 腾讯 ∙ QQ 基础架构 ∙ Golang
     summary: |
-      - Built and optimized a Golang-based backend for QQ’s facial recognition service, supporting user profile security and device login verification.
-      - Integrated deep learning model APIs and improved response latency by 40% through concurrent image preprocessing and caching.
-      - Collaborated with QQ security team to detect and prevent face spoofing attacks, improving system resilience against black and grey market abuse.
+      - 构建并优化基于 Golang 的手Q人脸识别后端与代理服务，支持用户资料及设备安全验证
+      - 联合 微信开平团队，精简手Q人脸代理老旧API、降低总成本约12%
+      - 联合 QQ安全团队，增强 QQ 登录安全校验与黑灰产的防御能力
 
-  - title: QQ频道
+  - title: QQ频道用户资料模块
     certificate_url: https://pd.qq.com/
-    date: '2022-08-30'
-    awarder: QQ 社区平台 ∙ Golang
+    date: '2023-08-30'
+    awarder: 腾讯 ∙ QQ 社区平台 ∙ Golang
     summary: |
-      - Participated in backend development of QQ Channel (community & feeds platform), powering personalized content, identity display, and access permissions for 50M+ users.
-      - Supported 78K peak QPS and 2.2B daily requests with high availability, implementing fine-grained caching and horizontally scalable architecture.
-      - Optimized push notification service with dynamic throttling to reduce system load during peak hours.
+      - 参与 QQ 频道后端开发，维护超过5000万的用户资料存储与读写服务
+      - 开发高并发的资料服务，监控显示最高有7.8万的 QPS 与每天22亿次请求
+      - 与 AI 团队共同研发设计与开发生成式 feeds 系统
 
-  - title: 北大数瑞区块链平台预言机机制研究
+  - title: 北大数瑞区块链平台的预言机机制研究
     certificate_url: https://gitee.com/bdware
     date: '2021-06-30'
-    awarder: 北京大学 ∙ Java/Solidity
+    awarder: 北京大学 ∙ 软件研究所 ∙ Java/Solidity
     summary: |
-      - Designed and implemented an off-chain oracle mechanism to bridge real-world data into Bdware’s blockchain platform.
-      - Developed data validation and signature aggregation logic for oracle nodes, ensuring data consistency on-chain.
-      - Delivered a demo prototype with smart contract interface and mock price feed integration.
+      - 设计并实现中心化预言机机制，实现现实世界数据向 Bdware 区块链平台的桥接
+      - 在预言机上部署深度学习应用（yolo-v3），用于检测图片数据，并向平台输出
+      - 在平台上编写智能合约应用，验证预言机有效性
 
 languages:
   - name: 中文(母语)
@@ -116,6 +118,8 @@ languages:
     percent: 50
 ---
 
-陈国强 (Robin Chen)，曾在 [腾讯](https://tencent.com) 担任后台开发工程师, 毕业于北京大学[软件工程](https://robinchen95.com/documents/master.jpeg)专业和西安交通大学[软件工程](https://robinchen95.com/documents/Bachelor.jpeg)专业.
+陈国强 (Robin Chen)，曾在 [腾讯](https://tencent.com) 担任后台开发工程师，毕业于 北京大学 [软件工程](https://robinchen95.com/documents/master.jpeg)专业与 西安交通大学 [软件工程](https://robinchen95.com/documents/Bachelor.jpeg)专业。
 
-工作语言包括：中文（母语）、英语 ([雅思A类-6.5](https://robinchen95.com/documents/ielts.jpeg))和日语（JLPT N2，商务水平）。
+工作语言包括：中文（母语）、英语 ([北大英语免修](https://robinchen95.com/documents/master_gpa.jpeg)、[雅思A类-6.5](https://robinchen95.com/documents/ielts.jpeg))和日语（JLPT N2）。
+
+学历满足: 🇬🇧 [英国HPI签证](https://www.gov.uk/high-potential-individual-visa)、🇯🇵 [日本J-Find签证](https://www.moj.go.jp/isa/applications/status/designatedactivities51.html)和 🇭🇰 [香港高才计划](https://www.immd.gov.hk/hkt/services/visas/TTPS.html) 要求，在至少两年内无需雇主提供签证支持。

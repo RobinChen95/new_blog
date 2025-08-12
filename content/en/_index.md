@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: English Résumé
-        url: uploads/resume.pdf
+        url: uploads/english_work_backend.pdf
     design:
       banner:
         # Upload your cover image to the `assets/media/` folder and reference it here
@@ -32,11 +32,14 @@ sections:
       # Hugo date format
       date_format: 'Jan 2006'
       # Education or Experience section first?
-      is_education_first: false
+      is_education_first: true
   - block: awards
     content:
       title: Projects
       username: admin
+    design:
+      # Hugo date format
+      date_format: '2006'
   - block: languages
     content:
       title: Language Level

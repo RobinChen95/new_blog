@@ -1,5 +1,5 @@
 ---
-title: 'Home'
+title: 'CV'
 date: 2023-10-24
 type: landing
 
@@ -16,8 +16,8 @@ sections:
       username: admin
       # Show a call-to-action button under your biography? (optional)
       button:
-        text: Download Résumé
-        url: uploads/resume.pdf
+        text: 履歴書(日本語)
+        url: uploads/english_work_backend.pdf
     design:
       banner:
         # Upload your cover image to the `assets/media/` folder and reference it here
@@ -30,19 +30,18 @@ sections:
       username: admin
     design:
       # Hugo date format
-      date_format: 'January 2006'
+      date_format: '2006年1月'
       # Education or Experience section first?
-      is_education_first: false
-  - block: skills
-    content:
-      title: Skills & Hobbies
-      username: admin
+      is_education_first: true
   - block: awards
     content:
-      title: Awards
+      title: プロジェクト
       username: admin
+    design:
+      # Hugo date format
+      date_format: '2006年'
   - block: languages
     content:
-      title: Languages
+      title: 言語レベル
       username: admin
 ---
